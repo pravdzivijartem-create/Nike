@@ -214,13 +214,18 @@ main nav {
 }
 
 .sec3-imgkreis {
-    z-index: 2;
+    z-index: 8;
     position: absolute;
     top: 1865px;
     left: 770px;
     width: 130px;
     height: 130px;
     border-width: 2px;
+    transition: 0.4s;
+}
+
+.sec3-imgkreis:hover{
+    transform: scale(1.1);
 }
 
 .sec3-imgstok {
@@ -842,7 +847,7 @@ footer hr {
 }
 
 .inp-box {
-    background: #A8A8A842;
+    background-color: #910c0cc2;
     width: 23.120630264282227px;
     height: 23.165468215942383px;
     border-width: 1px;
