@@ -224,7 +224,7 @@ main nav {
     transition: 0.4s;
 }
 
-.sec3-imgkreis:hover{
+.sec3-imgkreis:hover {
     transform: scale(1.1);
 }
 
@@ -835,6 +835,35 @@ footer hr {
     position: absolute;
     left: 380px;
     bottom: -15px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--color-weiß);
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background: #fff;
+    border-color: #fff;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    display: block;
+    color: #000;
+    text-align: center;
+    line-height: 18px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
 
 .form-box h3 {
